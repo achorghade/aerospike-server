@@ -53,7 +53,7 @@ main() {
   local me=$(whoami)
   debug "i am $me"
   if [[ ${me} != "root" ]]; then
-    error "super-user priveledges required for this operation. Try the command using sudo."
+    error "super-user privileges required for this operation. Try the command using sudo."
     exit 1
   fi
 
